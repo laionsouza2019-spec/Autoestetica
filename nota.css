@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 20px;
+}
+
+.nota-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.5);
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ff0000;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+header .logo {
+  width: 120px;
+  filter: drop-shadow(0 0 8px red);
+}
+
+h1 {
+  color: red;
+  text-shadow: 0 0 6px red;
+  font-size: 1.6em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background: #ff0000;
+  color: white;
+}
+
+table td[contenteditable="true"] {
+  background: #f0f0f0;
+  cursor: text;
+}
+
+.total-box {
+  text-align: right;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: red;
+}
+
+button {
+  background: red;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff3333;
+}
