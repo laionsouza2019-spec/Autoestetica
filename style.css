@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-container {
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px red);
+}
+
+h1 {
+  color: red;
+  text-shadow: 0 0 8px red;
+  margin-bottom: 10px;
+}
+
+.login-box {
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px red;
+  display: inline-block;
+}
+
+.login-box input {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.login-box button {
+  width: 220px;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #ff3333;
+}
+
+#erro {
+  color: #ff5555;
+  margin-top: 10px;
+}
+
+.car {
+  width: 350px;
+  margin-top: 40px;
+  animation: carMove 2.5s ease-out forwards;
+  position: relative;
+  left: 100%;
+}
+
+@keyframes carMove {
+  from { left: 100%; opacity: 0; }
+  to { left: 0; opacity: 1; }
+}
